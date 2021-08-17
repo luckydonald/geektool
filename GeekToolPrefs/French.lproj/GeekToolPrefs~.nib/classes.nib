@@ -1,0 +1,126 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = GTFontView; LANGUAGE = ObjC; SUPERCLASS = NSTextView; }, 
+        {
+            ACTIONS = {changeFont = id; }; 
+            CLASS = GTTextField; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {gtPrefs = id; }; 
+            SUPERCLASS = NSTextField; 
+        }, 
+        {
+            ACTIONS = {changeFont = id; }; 
+            CLASS = GeekToolPrefView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {font = id; }; 
+            SUPERCLASS = NSView; 
+        }, 
+        {
+            ACTIONS = {
+                activePoolChanged = id; 
+                adjustTransparency = id; 
+                changeAlignment = id; 
+                changeImageAlignment = id; 
+                deleteLog = id; 
+                duplicateLog = id; 
+                gApply = id; 
+                gChoose = id; 
+                gChooseFont = id; 
+                menuCheckBoxChanged = id; 
+                newLog = id; 
+                pAdd = id; 
+                pClose = id; 
+                pDelete = id; 
+                pDuplicate = id; 
+                poolsMenuChanged = id; 
+                toggleEnable = id; 
+                typeChanged = id; 
+            }; 
+            CLASS = GeekToolPrefs; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                cf1AlignCenter = id; 
+                cf1AlignJustify = id; 
+                cf1AlignLeft = id; 
+                cf1AlignRight = id; 
+                cf1BackgroundColor = id; 
+                cf1ChooseFont = id; 
+                cf1FontTextField = id; 
+                cf1ShadowText = id; 
+                cf1ShadowWindow = id; 
+                cf1TextColor = id; 
+                cf2AlignCenter = id; 
+                cf2AlignJustify = id; 
+                cf2AlignLeft = id; 
+                cf2AlignRight = id; 
+                cf2BackgroundColor = id; 
+                cf2ChooseFont = id; 
+                cf2FontTextField = id; 
+                cf2ShadowText = id; 
+                cf2ShadowWindow = id; 
+                cf2TextColor = id; 
+                cf3Fit = id; 
+                cf3FrameType = id; 
+                cf3transparency = id; 
+                gActivePool = id; 
+                gApply = id; 
+                gDelete = id; 
+                gEnable = id; 
+                gEnableMenu = id; 
+                gLogsList = id; 
+                gNew = id; 
+                gPoolsMenu = id; 
+                gVersion = id; 
+                kot = id; 
+                pAdd = id; 
+                pClose = id; 
+                pDelete = id; 
+                pDuplicate = id; 
+                pList = id; 
+                pSheet = id; 
+                sH = id; 
+                sW = id; 
+                sX = id; 
+                sY = id; 
+                t1Choose = id; 
+                t1FilePath = id; 
+                t2Command = id; 
+                t2Refresh = id; 
+                t2align1 = id; 
+                t2align2 = id; 
+                t2align3 = id; 
+                t2align4 = id; 
+                t2align5 = id; 
+                t2align6 = id; 
+                t2align7 = id; 
+                t2align8 = id; 
+                t2align9 = id; 
+                t3Refresh = id; 
+                t3URL = id; 
+                tMenu = id; 
+                tTab = id; 
+            }; 
+            SUPERCLASS = NSPreferencePane; 
+        }, 
+        {
+            ACTIONS = {chooseFont = id; }; 
+            CLASS = MyWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {"_GeekToolPrefs" = id; }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {
+            CLASS = NSPreferencePane; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "_firstKeyView" = id; 
+                "_initialKeyView" = id; 
+                "_lastKeyView" = id; 
+                "_window" = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

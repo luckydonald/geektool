@@ -1,0 +1,4 @@
+/* Localized versions of Info.plist keys */
+
+CFBundleName = "GeekTool";
+NSHumanReadableCopyright = "Copyright (c) 2002, Tynsoe.org.";
