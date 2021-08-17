@@ -1,0 +1,13 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {no = id; yes = id; }; 
+            CLASS = GTUninstaller; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {label = id; no = id; panel = id; yes = id; }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

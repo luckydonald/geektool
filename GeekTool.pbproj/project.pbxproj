@@ -1,0 +1,1749 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 38;
+	objects = {
+		080E96DCFE201CFB7F000001 = {
+			fileRef = 29B97318FDCFA39411CA2CEA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		080E96DDFE201D6D7F000001 = {
+			children = (
+				AAFA648C03E35A0200A80C64,
+				AAFA648D03E35A0200A80C64,
+			);
+			isa = PBXGroup;
+			name = Classes;
+			refType = 4;
+		};
+		089C165CFE840E0CC02AAC07 = {
+			children = (
+				089C165DFE840E0CC02AAC07,
+			);
+			isa = PBXVariantGroup;
+			name = InfoPlist.strings;
+			refType = 4;
+		};
+		089C165DFE840E0CC02AAC07 = {
+			fileEncoding = 10;
+			isa = PBXFileReference;
+			name = English;
+			path = English.lproj/InfoPlist.strings;
+			refType = 4;
+		};
+		089C165EFE840E0CC02AAC07 = {
+			fileRef = 089C165CFE840E0CC02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+//080
+//081
+//082
+//083
+//084
+//100
+//101
+//102
+//103
+//104
+		1058C7A0FEA54F0111CA2CBB = {
+			children = (
+				1058C7A1FEA54F0111CA2CBB,
+			);
+			isa = PBXGroup;
+			name = "Linked Frameworks";
+			refType = 4;
+		};
+		1058C7A1FEA54F0111CA2CBB = {
+			isa = PBXFrameworkReference;
+			name = Cocoa.framework;
+			path = /System/Library/Frameworks/Cocoa.framework;
+			refType = 0;
+		};
+		1058C7A2FEA54F0111CA2CBB = {
+			children = (
+				29B97325FDCFA39411CA2CEA,
+				29B97324FDCFA39411CA2CEA,
+			);
+			isa = PBXGroup;
+			name = "Other Frameworks";
+			refType = 4;
+		};
+		1058C7A3FEA54F0111CA2CBB = {
+			fileRef = 1058C7A1FEA54F0111CA2CBB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+//100
+//101
+//102
+//103
+//104
+//170
+//171
+//172
+//173
+//174
+		17587328FF379C6511CA2CBB = {
+			isa = PBXApplicationReference;
+			path = GeekTool.app;
+			refType = 3;
+		};
+//170
+//171
+//172
+//173
+//174
+//190
+//191
+//192
+//193
+//194
+		19C28FACFE9D520D11CA2CBB = {
+			children = (
+				17587328FF379C6511CA2CBB,
+				F5259B7E038EC2C10126D607,
+				AA9239FE045845DF00A80303,
+				AA12AECC046EB25A00A80C64,
+			);
+			isa = PBXGroup;
+			name = Products;
+			refType = 4;
+		};
+//190
+//191
+//192
+//193
+//194
+//290
+//291
+//292
+//293
+//294
+		29B97313FDCFA39411CA2CEA = {
+			buildStyles = (
+				4A9504CCFFE6A4B311CA0CBA,
+				4A9504CDFFE6A4B311CA0CBA,
+			);
+			hasScannedForEncodings = 1;
+			isa = PBXProject;
+			mainGroup = 29B97314FDCFA39411CA2CEA;
+			projectDirPath = "";
+			targets = (
+				29B97326FDCFA39411CA2CEA,
+				F5259B7D038EC2C10126D607,
+				AA9239FD045845DF00A80303,
+				AA12AECB046EB25A00A80C64,
+			);
+		};
+		29B97314FDCFA39411CA2CEA = {
+			children = (
+				AA12AF77046EC1CD00A80C64,
+				AA12AECE046EB28800A80C64,
+				AA6F93F9045E69DF00A80C64,
+				F5B35864038E8BAF01164E5D,
+				080E96DDFE201D6D7F000001,
+				29B97317FDCFA39411CA2CEA,
+				29B97315FDCFA39411CA2CEA,
+				29B97323FDCFA39411CA2CEA,
+				19C28FACFE9D520D11CA2CBB,
+			);
+			isa = PBXGroup;
+			name = GeekTool;
+			path = "";
+			refType = 4;
+		};
+		29B97315FDCFA39411CA2CEA = {
+			children = (
+				29B97316FDCFA39411CA2CEA,
+				F5743E62038312A901A800B4,
+				F5743E63038312A901A800B4,
+				F5B97E59038BC50301A800B4,
+				F5B97E5A038BC50301A800B4,
+				F5B97E61038BC64601A800B4,
+				F5B97E62038BC64601A800B4,
+				AAC260E003D0E57C00A8000B,
+				AAC260DE03D0E56B00A8000B,
+				AA5CE3D803F7119800A80C64,
+				AA5CE3D903F7119800A80C64,
+				AAD950190466EE5A00A801C8,
+				AAD9501A0466EE5A00A801C8,
+				AAD9501B0466EE5A00A801C8,
+				AAD9501C0466EE5A00A801C8,
+			);
+			isa = PBXGroup;
+			name = "Other Sources";
+			path = "";
+			refType = 4;
+		};
+		29B97316FDCFA39411CA2CEA = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = main.m;
+			refType = 4;
+		};
+		29B97317FDCFA39411CA2CEA = {
+			children = (
+				AA6F93E8045DD36A00A80C64,
+				AAC260EA03D1A6E600A8000B,
+				AAD8EA3303BF3F7A00A8000B,
+				F5F7D0620388533201A800B4,
+				AAD950170466EE1300A801C8,
+				29B97318FDCFA39411CA2CEA,
+				089C165CFE840E0CC02AAC07,
+			);
+			isa = PBXGroup;
+			name = Resources;
+			path = "";
+			refType = 4;
+		};
+		29B97318FDCFA39411CA2CEA = {
+			children = (
+				29B97319FDCFA39411CA2CEA,
+			);
+			isa = PBXVariantGroup;
+			name = MainMenu.nib;
+			path = "";
+			refType = 4;
+		};
+		29B97319FDCFA39411CA2CEA = {
+			isa = PBXFileReference;
+			name = English;
+			path = English.lproj/MainMenu.nib;
+			refType = 4;
+		};
+		29B97323FDCFA39411CA2CEA = {
+			children = (
+				1058C7A0FEA54F0111CA2CBB,
+				1058C7A2FEA54F0111CA2CBB,
+				AA923A0D0458495A00A80303,
+				AA923AC504584ABE00A80303,
+			);
+			isa = PBXGroup;
+			name = Frameworks;
+			path = "";
+			refType = 4;
+		};
+		29B97324FDCFA39411CA2CEA = {
+			isa = PBXFrameworkReference;
+			name = AppKit.framework;
+			path = /System/Library/Frameworks/AppKit.framework;
+			refType = 0;
+		};
+		29B97325FDCFA39411CA2CEA = {
+			isa = PBXFrameworkReference;
+			name = Foundation.framework;
+			path = /System/Library/Frameworks/Foundation.framework;
+			refType = 0;
+		};
+		29B97326FDCFA39411CA2CEA = {
+			buildPhases = (
+				29B97327FDCFA39411CA2CEA,
+				29B97328FDCFA39411CA2CEA,
+				29B9732BFDCFA39411CA2CEA,
+				29B9732DFDCFA39411CA2CEA,
+			);
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = GeekTool;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = app;
+			};
+			dependencies = (
+			);
+			isa = PBXApplicationTarget;
+			name = GeekTool;
+			productInstallPath = "$(HOME)/Applications";
+			productName = GeekTool;
+			productReference = 17587328FF379C6511CA2CBB;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>GeekTool</string>
+	<key>CFBundleIconFile</key>
+	<string>GeekTool</string>
+	<key>CFBundleIdentifier</key>
+	<string>org.tynsoe.geektool</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>126</string>
+	<key>NSMainNibFile</key>
+	<string>MainMenu</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>NSUIElement</key>
+	<integer>1</integer>
+</dict>
+</plist>
+";
+		};
+		29B97327FDCFA39411CA2CEA = {
+			buildActionMask = 2147483647;
+			files = (
+				F5743E64038312A901A800B4,
+				F5B97E5B038BC50301A800B4,
+				F5B97E64038BC64601A800B4,
+				AAC260E103D0E57C00A8000B,
+				AAFA648E03E35A0200A80C64,
+				AA5CE3DA03F7119800A80C64,
+				AAD9501D0466EE5A00A801C8,
+				AAD9501F0466EE5A00A801C8,
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29B97328FDCFA39411CA2CEA = {
+			buildActionMask = 2147483647;
+			files = (
+				080E96DCFE201CFB7F000001,
+				089C165EFE840E0CC02AAC07,
+				F5DB2A3D0389A10001A800B4,
+				AAD8EA3503BF3FDE00A8000B,
+				AAC260EB03D1A6E600A8000B,
+				AAD950180466EE1300A801C8,
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29B9732BFDCFA39411CA2CEA = {
+			buildActionMask = 2147483647;
+			files = (
+				29B9732CFDCFA39411CA2CEA,
+				F5743E65038312A901A800B4,
+				F5B97E5C038BC50301A800B4,
+				F5B97E63038BC64601A800B4,
+				AAC260DF03D0E56B00A8000B,
+				AAFA648F03E35A0200A80C64,
+				AA5CE3DB03F7119800A80C64,
+				AAD9501E0466EE5A00A801C8,
+				AAD950200466EE5A00A801C8,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29B9732CFDCFA39411CA2CEA = {
+			fileRef = 29B97316FDCFA39411CA2CEA;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		29B9732DFDCFA39411CA2CEA = {
+			buildActionMask = 2147483647;
+			files = (
+				1058C7A3FEA54F0111CA2CBB,
+				AAD950250467A8E100A801C8,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+//290
+//291
+//292
+//293
+//294
+//4A0
+//4A1
+//4A2
+//4A3
+//4A4
+		4A9504CCFFE6A4B311CA0CBA = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT = YES;
+				OPTIMIZATION_CFLAGS = "-O0";
+			};
+			isa = PBXBuildStyle;
+			name = Development;
+		};
+		4A9504CDFFE6A4B311CA0CBA = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			isa = PBXBuildStyle;
+			name = Deployment;
+		};
+//4A0
+//4A1
+//4A2
+//4A3
+//4A4
+//AA0
+//AA1
+//AA2
+//AA3
+//AA4
+		AA12AEC2046DCF2C00A80C64 = {
+			isa = PBXFileReference;
+			name = French;
+			path = GeekToolPrefs/French.lproj/GeekToolPrefs.nib;
+			refType = 4;
+		};
+		AA12AEC6046EB25A00A80C64 = {
+			buildActionMask = 2147483647;
+			files = (
+				AA12AEF4046EB28900A80C64,
+				AA12AEF8046EB3B400A80C64,
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA12AEC7046EB25A00A80C64 = {
+			buildActionMask = 2147483647;
+			files = (
+				AA12AEF0046EB28900A80C64,
+				AA12AEF1046EB28900A80C64,
+				AA12AF3B046EBA4000A80C64,
+				AA12AF78046EC1CD00A80C64,
+				AA12AF7C046EC4CE00A80C64,
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA12AEC8046EB25A00A80C64 = {
+			buildActionMask = 2147483647;
+			files = (
+				AA12AEF5046EB28900A80C64,
+				AA12AEF9046EB3B400A80C64,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA12AEC9046EB25A00A80C64 = {
+			buildActionMask = 2147483647;
+			files = (
+				AA12AEFB046EB67700A80C64,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA12AECA046EB25A00A80C64 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXRezBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA12AECB046EB25A00A80C64 = {
+			buildPhases = (
+				AA12AEC6046EB25A00A80C64,
+				AA12AEC7046EB25A00A80C64,
+				AA12AEC8046EB25A00A80C64,
+				AA12AEC9046EB25A00A80C64,
+				AA12AECA046EB25A00A80C64,
+			);
+			buildSettings = {
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "GeekTool Uninstaller";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = app;
+			};
+			dependencies = (
+			);
+			isa = PBXApplicationTarget;
+			name = "GeekTool Uninstaller";
+			productInstallPath = "$(USER_APPS_DIR)";
+			productName = "GeekTool Uninstaller";
+			productReference = AA12AECC046EB25A00A80C64;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>GeekTool Uninstaller</string>
+	<key>CFBundleGetInfoString</key>
+	<string>1.0</string>
+	<key>CFBundleIconFile</key>
+	<string>Uninstaller</string>
+	<key>CFBundleIdentifier</key>
+	<string>org.tynsoe.geektooluninstaller</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>GeekTool Uninstaller</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>126</string>
+	<key>NSMainNibFile</key>
+	<string>MainMenu</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+</dict>
+</plist>
+";
+		};
+		AA12AECC046EB25A00A80C64 = {
+			isa = PBXApplicationReference;
+			path = "GeekTool Uninstaller.app";
+			refType = 3;
+		};
+		AA12AECE046EB28800A80C64 = {
+			children = (
+				AA12AEDD046EB28900A80C64,
+				AA12AEDF046EB28900A80C64,
+				AA12AEE4046EB28900A80C64,
+				AA12AEE5046EB28900A80C64,
+				AA12AEF6046EB3B400A80C64,
+				AA12AEF7046EB3B400A80C64,
+				AA12AF3D046EBAA500A80C64,
+			);
+			isa = PBXGroup;
+			path = "GeekTool Uninstaller";
+			refType = 4;
+		};
+		AA12AEDD046EB28900A80C64 = {
+			children = (
+				AA12AEDE046EB28900A80C64,
+			);
+			isa = PBXVariantGroup;
+			name = InfoPlist.strings;
+			path = "";
+			refType = 4;
+		};
+		AA12AEDE046EB28900A80C64 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = English;
+			path = English.lproj/InfoPlist.strings;
+			refType = 4;
+		};
+		AA12AEDF046EB28900A80C64 = {
+			children = (
+				AA12AEE0046EB28900A80C64,
+				AA12AF3E046EBC9600A80C64,
+			);
+			isa = PBXVariantGroup;
+			name = MainMenu.nib;
+			path = "";
+			refType = 4;
+		};
+		AA12AEE0046EB28900A80C64 = {
+			isa = PBXFileReference;
+			name = English;
+			path = English.lproj/MainMenu.nib;
+			refType = 4;
+		};
+		AA12AEE4046EB28900A80C64 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = "GeekTool Uninstaller_Prefix.h";
+			refType = 4;
+		};
+		AA12AEE5046EB28900A80C64 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = main.m;
+			refType = 4;
+		};
+		AA12AEF0046EB28900A80C64 = {
+			fileRef = AA12AEDD046EB28900A80C64;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AA12AEF1046EB28900A80C64 = {
+			fileRef = AA12AEDF046EB28900A80C64;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AA12AEF4046EB28900A80C64 = {
+			fileRef = AA12AEE4046EB28900A80C64;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AA12AEF5046EB28900A80C64 = {
+			fileRef = AA12AEE5046EB28900A80C64;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AA12AEF6046EB3B400A80C64 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = GTUninstaller.h;
+			refType = 4;
+		};
+		AA12AEF7046EB3B400A80C64 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = GTUninstaller.m;
+			refType = 4;
+		};
+		AA12AEF8046EB3B400A80C64 = {
+			fileRef = AA12AEF6046EB3B400A80C64;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AA12AEF9046EB3B400A80C64 = {
+			fileRef = AA12AEF7046EB3B400A80C64;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AA12AEFB046EB67700A80C64 = {
+			fileRef = 1058C7A1FEA54F0111CA2CBB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AA12AF38046EBA1F00A80C64 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			name = Localizable.strings;
+			path = English.lproj/Localizable.strings;
+			refType = 4;
+		};
+		AA12AF3A046EBA4000A80C64 = {
+			children = (
+				AA12AF38046EBA1F00A80C64,
+				AA12AF3C046EBA4900A80C64,
+			);
+			isa = PBXVariantGroup;
+			name = Localizable.strings;
+			path = "";
+			refType = 4;
+		};
+		AA12AF3B046EBA4000A80C64 = {
+			fileRef = AA12AF3A046EBA4000A80C64;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AA12AF3C046EBA4900A80C64 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			name = Localizable.strings;
+			path = French.lproj/Localizable.strings;
+			refType = 4;
+		};
+		AA12AF3D046EBAA500A80C64 = {
+			children = (
+				AA12AF7B046EC4CE00A80C64,
+				AA12AF3A046EBA4000A80C64,
+			);
+			isa = PBXGroup;
+			name = Resources;
+			refType = 4;
+		};
+		AA12AF3E046EBC9600A80C64 = {
+			isa = PBXFileReference;
+			name = French;
+			path = French.lproj/MainMenu.nib;
+			refType = 4;
+		};
+		AA12AF6F046EC13200A80C64 = {
+			fileRef = AA9239FE045845DF00A80303;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AA12AF72046EC13600A80C64 = {
+			fileRef = 17587328FF379C6511CA2CBB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AA12AF73046EC14C00A80C64 = {
+			buildActionMask = 2147483647;
+			dstPath = "GeekTool 2.0";
+			dstSubfolderSpec = 16;
+			files = (
+				AA12AF74046EC16B00A80C64,
+				AA12AF7A046EC25200A80C64,
+				AA12AF79046EC1D400A80C64,
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA12AF74046EC16B00A80C64 = {
+			fileRef = F5259B7E038EC2C10126D607;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AA12AF77046EC1CD00A80C64 = {
+			isa = PBXFileReference;
+			path = Documentation.pdf;
+			refType = 4;
+		};
+		AA12AF78046EC1CD00A80C64 = {
+			fileRef = AA12AF77046EC1CD00A80C64;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AA12AF79046EC1D400A80C64 = {
+			fileRef = AA12AF77046EC1CD00A80C64;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AA12AF7A046EC25200A80C64 = {
+			fileRef = AA12AECC046EB25A00A80C64;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AA12AF7B046EC4CE00A80C64 = {
+			isa = PBXFileReference;
+			path = Uninstaller.icns;
+			refType = 4;
+		};
+		AA12AF7C046EC4CE00A80C64 = {
+			fileRef = AA12AF7B046EC4CE00A80C64;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AA2531C7045ECE1300A80C64 = {
+			isa = PBXBundleReference;
+			path = MenuCracker.menu;
+			refType = 4;
+		};
+		AA2531C8045ECE1300A80C64 = {
+			fileRef = AA2531C7045ECE1300A80C64;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AA278B16045B795E00A80C64 = {
+			fileRef = F5B97E59038BC50301A800B4;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AA278B17045B7A3C00A80C64 = {
+			fileRef = F5B97E5A038BC50301A800B4;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AA5CE3D803F7119800A80C64 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			path = LogTextField.h;
+			refType = 4;
+		};
+		AA5CE3D903F7119800A80C64 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			path = LogTextField.m;
+			refType = 4;
+		};
+		AA5CE3DA03F7119800A80C64 = {
+			fileRef = AA5CE3D803F7119800A80C64;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AA5CE3DB03F7119800A80C64 = {
+			fileRef = AA5CE3D903F7119800A80C64;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AA6F93E8045DD36A00A80C64 = {
+			isa = PBXBundleReference;
+			name = MenuCracker.menu;
+			path = "/Volumes/MenuCracker-1.1/MenuCracker.menu";
+			refType = 0;
+		};
+		AA6F93F9045E69DF00A80C64 = {
+			children = (
+				AA6F93FB045E69DF00A80C64,
+				AA6F93FC045E69DF00A80C64,
+				AA6F93FD045E69DF00A80C64,
+				AA6F9413045E6F4E00A80C64,
+				AA6F93FE045E69DF00A80C64,
+				AA6F93FF045E69DF00A80C64,
+				AA6F9400045E69DF00A80C64,
+				AA6F9401045E69DF00A80C64,
+			);
+			isa = PBXGroup;
+			path = GeekToolMenu;
+			refType = 4;
+		};
+		AA6F93FB045E69DF00A80C64 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = GeekToolMenu.h;
+			refType = 4;
+		};
+		AA6F93FC045E69DF00A80C64 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = GeekToolMenu.m;
+			refType = 4;
+		};
+		AA6F93FD045E69DF00A80C64 = {
+			isa = PBXFileReference;
+			path = geektoolmenu.tif;
+			refType = 4;
+		};
+		AA6F93FE045E69DF00A80C64 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = GeekToolMenuView.h;
+			refType = 4;
+		};
+		AA6F93FF045E69DF00A80C64 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = GeekToolMenuView.m;
+			refType = 4;
+		};
+		AA6F9400045E69DF00A80C64 = {
+			children = (
+				AA2531C7045ECE1300A80C64,
+				AA6F9416045E977700A80C64,
+			);
+			isa = PBXGroup;
+			path = Resources;
+			refType = 4;
+		};
+		AA6F9401045E69DF00A80C64 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = SystemUIPlugin.h;
+			refType = 4;
+		};
+		AA6F9403045E69DF00A80C64 = {
+			fileRef = AA6F93FB045E69DF00A80C64;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AA6F9404045E69DF00A80C64 = {
+			fileRef = AA6F93FC045E69DF00A80C64;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AA6F9405045E69DF00A80C64 = {
+			fileRef = AA6F93FD045E69DF00A80C64;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AA6F9406045E69DF00A80C64 = {
+			fileRef = AA6F93FE045E69DF00A80C64;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AA6F9407045E69DF00A80C64 = {
+			fileRef = AA6F93FF045E69DF00A80C64;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AA6F9408045E69DF00A80C64 = {
+			fileRef = AA6F9401045E69DF00A80C64;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AA6F9409045E6A1500A80C64 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			name = English;
+			path = English.lproj/Localizable.strings;
+			refType = 4;
+		};
+		AA6F940F045E6A8B00A80C64 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			name = English;
+			path = English.lproj/Localizable.strings;
+			refType = 4;
+		};
+		AA6F9412045E6D9200A80C64 = {
+			isa = PBXTargetDependency;
+			target = AA9239FD045845DF00A80303;
+		};
+		AA6F9413045E6F4E00A80C64 = {
+			isa = PBXFileReference;
+			path = geektoolmenualt.tif;
+			refType = 4;
+		};
+		AA6F9414045E6F4E00A80C64 = {
+			fileRef = AA6F9413045E6F4E00A80C64;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AA6F9416045E977700A80C64 = {
+			children = (
+				AA6F9409045E6A1500A80C64,
+				AA6F9418045E978000A80C64,
+			);
+			isa = PBXVariantGroup;
+			name = Localizable.strings;
+			refType = 4;
+		};
+		AA6F9417045E977700A80C64 = {
+			fileRef = AA6F9416045E977700A80C64;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AA6F9418045E978000A80C64 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			name = French;
+			path = French.lproj/Localizable.strings;
+			refType = 4;
+		};
+		AA9239F5045809A600A80303 = {
+			isa = PBXFileReference;
+			name = French;
+			path = GeekToolPrefs/French.lproj/InfoPlist.strings;
+			refType = 4;
+		};
+		AA9239F8045845DF00A80303 = {
+			buildActionMask = 2147483647;
+			files = (
+				AA6F9403045E69DF00A80C64,
+				AA6F9406045E69DF00A80C64,
+				AA6F9408045E69DF00A80C64,
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9239F9045845DF00A80303 = {
+			buildActionMask = 2147483647;
+			files = (
+				AA6F9405045E69DF00A80C64,
+				AA6F9417045E977700A80C64,
+				AA6F9414045E6F4E00A80C64,
+				AA2531C8045ECE1300A80C64,
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9239FA045845DF00A80303 = {
+			buildActionMask = 2147483647;
+			files = (
+				AA6F9404045E69DF00A80C64,
+				AA6F9407045E69DF00A80C64,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9239FB045845DF00A80303 = {
+			buildActionMask = 2147483647;
+			files = (
+				AA923A0E0458495A00A80303,
+				AA923AC604584ABE00A80303,
+				AA923AC704584B5000A80303,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9239FC045845DF00A80303 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXRezBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9239FD045845DF00A80303 = {
+			buildPhases = (
+				AA9239F8045845DF00A80303,
+				AA9239F9045845DF00A80303,
+				AA9239FA045845DF00A80303,
+				AA9239FB045845DF00A80303,
+				AA9239FC045845DF00A80303,
+			);
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "\"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = GeekToolMenu;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = menu;
+			};
+			dependencies = (
+			);
+			isa = PBXBundleTarget;
+			name = GeekToolMenu;
+			productInstallPath = "$(USER_LIBRARY_DIR)/Bundles";
+			productName = GeekToolMenu;
+			productReference = AA9239FE045845DF00A80303;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string></string>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>org.tynsoe.geektool</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string></string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string></string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>126</string>
+	<key>NSPrincipalClass</key>
+	<string>GeekToolMenu</string>
+</dict>
+</plist>
+";
+		};
+		AA9239FE045845DF00A80303 = {
+			isa = PBXBundleReference;
+			path = GeekToolMenu.menu;
+			refType = 3;
+		};
+		AA923A0D0458495A00A80303 = {
+			isa = PBXFrameworkReference;
+			name = SystemUIPlugin.framework;
+			path = /System/Library/PrivateFrameworks/SystemUIPlugin.framework;
+			refType = 0;
+		};
+		AA923A0E0458495A00A80303 = {
+			fileRef = AA923A0D0458495A00A80303;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AA923AC504584ABE00A80303 = {
+			isa = PBXFrameworkReference;
+			name = Carbon.framework;
+			path = /System/Library/Frameworks/Carbon.framework;
+			refType = 0;
+		};
+		AA923AC604584ABE00A80303 = {
+			fileRef = AA923AC504584ABE00A80303;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AA923AC704584B5000A80303 = {
+			fileRef = 1058C7A1FEA54F0111CA2CBB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AAC260DE03D0E56B00A8000B = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			path = NSLogView.m;
+			refType = 4;
+		};
+		AAC260DF03D0E56B00A8000B = {
+			fileRef = AAC260DE03D0E56B00A8000B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AAC260E003D0E57C00A8000B = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			path = NSLogView.h;
+			refType = 4;
+		};
+		AAC260E103D0E57C00A8000B = {
+			fileRef = AAC260E003D0E57C00A8000B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AAC260EA03D1A6E600A8000B = {
+			isa = PBXFileReference;
+			path = coin.tif;
+			refType = 4;
+		};
+		AAC260EB03D1A6E600A8000B = {
+			fileRef = AAC260EA03D1A6E600A8000B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AAC5920D045FF8FB00A801C8 = {
+			children = (
+				AA6F940F045E6A8B00A80C64,
+				AAC5920F045FF90800A801C8,
+			);
+			isa = PBXVariantGroup;
+			name = Localizable.strings;
+			refType = 4;
+		};
+		AAC5920E045FF8FB00A801C8 = {
+			fileRef = AAC5920D045FF8FB00A801C8;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AAC5920F045FF90800A801C8 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			name = French;
+			path = French.lproj/Localizable.strings;
+			refType = 4;
+		};
+		AACFACA80456BE4300A80303 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = GTTextField.m;
+			path = GeekToolPrefs/GTTextField.m;
+			refType = 4;
+		};
+		AACFACA90456BE4300A80303 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = GTTextField.h;
+			path = GeekToolPrefs/GTTextField.h;
+			refType = 4;
+		};
+		AACFACAA0456BE4300A80303 = {
+			fileRef = AACFACA80456BE4300A80303;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AACFACAB0456BE4300A80303 = {
+			fileRef = AACFACA90456BE4300A80303;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AAD8EA2F03BF3C8600A8000B = {
+			isa = PBXFileReference;
+			path = GeekToolPrefs.tiff;
+			refType = 4;
+		};
+		AAD8EA3003BF3C8600A8000B = {
+			fileRef = AAD8EA2F03BF3C8600A8000B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AAD8EA3303BF3F7A00A8000B = {
+			isa = PBXFileReference;
+			path = GeekTool.icns;
+			refType = 4;
+		};
+		AAD8EA3403BF3F7A00A8000B = {
+			fileRef = AAD8EA3303BF3F7A00A8000B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AAD8EA3503BF3FDE00A8000B = {
+			fileRef = AAD8EA3303BF3F7A00A8000B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AAD8EA3603BF407300A8000B = {
+			isa = PBXTargetDependency;
+			target = 29B97326FDCFA39411CA2CEA;
+		};
+		AAD950170466EE1300A801C8 = {
+			isa = PBXFileReference;
+			path = imageLogWindow.nib;
+			refType = 4;
+		};
+		AAD950180466EE1300A801C8 = {
+			fileRef = AAD950170466EE1300A801C8;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AAD950190466EE5A00A801C8 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = ImageLogWindow.h;
+			refType = 4;
+		};
+		AAD9501A0466EE5A00A801C8 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = ImageLogWindow.m;
+			refType = 4;
+		};
+		AAD9501B0466EE5A00A801C8 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = ImageLogWindowController.h;
+			refType = 4;
+		};
+		AAD9501C0466EE5A00A801C8 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = ImageLogWindowController.m;
+			refType = 4;
+		};
+		AAD9501D0466EE5A00A801C8 = {
+			fileRef = AAD950190466EE5A00A801C8;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AAD9501E0466EE5A00A801C8 = {
+			fileRef = AAD9501A0466EE5A00A801C8;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AAD9501F0466EE5A00A801C8 = {
+			fileRef = AAD9501B0466EE5A00A801C8;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AAD950200466EE5A00A801C8 = {
+			fileRef = AAD9501C0466EE5A00A801C8;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AAD950210466FAE500A801C8 = {
+			fileRef = AAD9501B0466EE5A00A801C8;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AAD950220466FAE500A801C8 = {
+			fileRef = AAD9501C0466EE5A00A801C8;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AAD950250467A8E100A801C8 = {
+			fileRef = AA923AC504584ABE00A80303;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AAFA648C03E35A0200A80C64 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			path = GTLog.h;
+			refType = 4;
+		};
+		AAFA648D03E35A0200A80C64 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			path = GTLog.m;
+			refType = 4;
+		};
+		AAFA648E03E35A0200A80C64 = {
+			fileRef = AAFA648C03E35A0200A80C64;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AAFA648F03E35A0200A80C64 = {
+			fileRef = AAFA648D03E35A0200A80C64;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AAFA649003E35A0200A80C64 = {
+			fileRef = AAFA648C03E35A0200A80C64;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AAFA649103E35A0200A80C64 = {
+			fileRef = AAFA648D03E35A0200A80C64;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+//AA0
+//AA1
+//AA2
+//AA3
+//AA4
+//F50
+//F51
+//F52
+//F53
+//F54
+		F5259B78038EC2C10126D607 = {
+			buildActionMask = 2147483647;
+			files = (
+				F5259B88038EC4020126D607,
+				AAFA649003E35A0200A80C64,
+				AACFACAB0456BE4300A80303,
+				AA278B16045B795E00A80C64,
+				AAD950210466FAE500A801C8,
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5259B79038EC2C10126D607 = {
+			buildActionMask = 2147483647;
+			files = (
+				F5259B82038EC3EF0126D607,
+				F5259B85038EC3F80126D607,
+				F54C3DC703B07FC60149D2DA,
+				F54C3DC803B07FC60149D2DA,
+				F54C3DC903B07FC60149D2DA,
+				F54C3DCA03B07FC60149D2DA,
+				AAD8EA3003BF3C8600A8000B,
+				AAD8EA3403BF3F7A00A8000B,
+				AAC5920E045FF8FB00A801C8,
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5259B7A038EC2C10126D607 = {
+			buildActionMask = 2147483647;
+			files = (
+				F5259B89038EC4020126D607,
+				AAFA649103E35A0200A80C64,
+				AACFACAA0456BE4300A80303,
+				AA278B17045B7A3C00A80C64,
+				AAD950220466FAE500A801C8,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5259B7B038EC2C10126D607 = {
+			buildActionMask = 2147483647;
+			files = (
+				F5259B92038EC4720126D607,
+				F5259BA7038EC4870126D607,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5259B7C038EC2C10126D607 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXRezBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5259B7D038EC2C10126D607 = {
+			buildPhases = (
+				F5259B78038EC2C10126D607,
+				F5259B79038EC2C10126D607,
+				F5259B7A038EC2C10126D607,
+				F5259B7B038EC2C10126D607,
+				F5259B7C038EC2C10126D607,
+				F5259BF4039148600126D607,
+				AA12AF73046EC14C00A80C64,
+			);
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 126;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-bundle -twolevel_namespace";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = GeekTool;
+				SECTORDER_FLAGS = "";
+				VERSIONING_SYSTEM = "apple-generic";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = prefPane;
+			};
+			dependencies = (
+				AAD8EA3603BF407300A8000B,
+				AA6F9412045E6D9200A80C64,
+			);
+			isa = PBXBundleTarget;
+			name = GeekToolPrefs;
+			productInstallPath = "$(USER_LIBRARY_DIR)/Bundles";
+			productName = GeekToolPrefs;
+			productReference = F5259B7E038EC2C10126D607;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>GeekTool</string>
+	<key>CFBundleGetInfoString</key>
+	<string>2.0</string>
+	<key>CFBundleIconFile</key>
+	<string>GeekTool</string>
+	<key>CFBundleIdentifier</key>
+	<string>org.tynsoe.geektool</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>GeekTool</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>126</string>
+	<key>NSMainNibFile</key>
+	<string>GeekToolPrefs</string>
+	<key>NSPrefPaneIconFile</key>
+	<string>GeekToolPrefs.tiff</string>
+	<key>NSPrincipalClass</key>
+	<string>GeekToolPrefs</string>
+</dict>
+</plist>
+";
+		};
+		F5259B7E038EC2C10126D607 = {
+			isa = PBXBundleReference;
+			path = GeekTool.prefPane;
+			refType = 3;
+		};
+		F5259B80038EC3EF0126D607 = {
+			children = (
+				F5259B81038EC3EF0126D607,
+				AA12AEC2046DCF2C00A80C64,
+			);
+			isa = PBXVariantGroup;
+			name = GeekToolPrefs.nib;
+			path = "";
+			refType = 4;
+		};
+		F5259B81038EC3EF0126D607 = {
+			isa = PBXFileReference;
+			name = English;
+			path = GeekToolPrefs/English.lproj/GeekToolPrefs.nib;
+			refType = 4;
+		};
+		F5259B82038EC3EF0126D607 = {
+			fileRef = F5259B80038EC3EF0126D607;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5259B83038EC3F80126D607 = {
+			children = (
+				F5259B84038EC3F80126D607,
+				AA9239F5045809A600A80303,
+			);
+			isa = PBXVariantGroup;
+			name = InfoPlist.strings;
+			path = "";
+			refType = 4;
+		};
+		F5259B84038EC3F80126D607 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = English;
+			path = GeekToolPrefs/English.lproj/InfoPlist.strings;
+			refType = 4;
+		};
+		F5259B85038EC3F80126D607 = {
+			fileRef = F5259B83038EC3F80126D607;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5259B86038EC4020126D607 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = GeekToolPrefs.h;
+			path = GeekToolPrefs/GeekToolPrefs.h;
+			refType = 4;
+		};
+		F5259B87038EC4020126D607 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = GeekToolPrefs.m;
+			path = GeekToolPrefs/GeekToolPrefs.m;
+			refType = 4;
+		};
+		F5259B88038EC4020126D607 = {
+			fileRef = F5259B86038EC4020126D607;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5259B89038EC4020126D607 = {
+			fileRef = F5259B87038EC4020126D607;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5259B8C038EC4720126D607 = {
+			isa = PBXFrameworkReference;
+			name = Cocoa.framework;
+			path = /System/Library/Frameworks/Cocoa.framework;
+			refType = 0;
+		};
+		F5259B92038EC4720126D607 = {
+			fileRef = F5259B8C038EC4720126D607;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5259B93038EC4870126D607 = {
+			isa = PBXFrameworkReference;
+			name = PreferencePanes.framework;
+			path = /System/Library/Frameworks/PreferencePanes.framework;
+			refType = 0;
+		};
+		F5259BA7038EC4870126D607 = {
+			fileRef = F5259B93038EC4870126D607;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5259BF4039148600126D607 = {
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				AA12AF6F046EC13200A80C64,
+				AA12AF72046EC13600A80C64,
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F54C3DC303B07FC60149D2DA = {
+			isa = PBXFileReference;
+			path = centre.png;
+			refType = 4;
+		};
+		F54C3DC403B07FC60149D2DA = {
+			isa = PBXFileReference;
+			path = droite.png;
+			refType = 4;
+		};
+		F54C3DC503B07FC60149D2DA = {
+			isa = PBXFileReference;
+			path = gauche.png;
+			refType = 4;
+		};
+		F54C3DC603B07FC60149D2DA = {
+			isa = PBXFileReference;
+			path = justifie.png;
+			refType = 4;
+		};
+		F54C3DC703B07FC60149D2DA = {
+			fileRef = F54C3DC303B07FC60149D2DA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F54C3DC803B07FC60149D2DA = {
+			fileRef = F54C3DC403B07FC60149D2DA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F54C3DC903B07FC60149D2DA = {
+			fileRef = F54C3DC503B07FC60149D2DA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F54C3DCA03B07FC60149D2DA = {
+			fileRef = F54C3DC603B07FC60149D2DA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5743E62038312A901A800B4 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = GeekTool.h;
+			refType = 4;
+		};
+		F5743E63038312A901A800B4 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = GeekTool.m;
+			refType = 4;
+		};
+		F5743E64038312A901A800B4 = {
+			fileRef = F5743E62038312A901A800B4;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5743E65038312A901A800B4 = {
+			fileRef = F5743E63038312A901A800B4;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5B35864038E8BAF01164E5D = {
+			children = (
+				F5259B86038EC4020126D607,
+				F5259B87038EC4020126D607,
+				F5B35873038E8C8301164E5D,
+				F5B3586B038E8BDE01164E5D,
+				AACFACA80456BE4300A80303,
+				AACFACA90456BE4300A80303,
+			);
+			isa = PBXGroup;
+			name = PreferencePane;
+			refType = 4;
+		};
+		F5B3586B038E8BDE01164E5D = {
+			children = (
+				F54C3DC303B07FC60149D2DA,
+				F54C3DC403B07FC60149D2DA,
+				F54C3DC503B07FC60149D2DA,
+				F54C3DC603B07FC60149D2DA,
+				AAC5920D045FF8FB00A801C8,
+				F5259B83038EC3F80126D607,
+				AAD8EA2F03BF3C8600A8000B,
+				F5259B80038EC3EF0126D607,
+			);
+			isa = PBXGroup;
+			name = Resources;
+			refType = 4;
+		};
+		F5B35873038E8C8301164E5D = {
+			children = (
+				F5B6DB74038E99F101D68D8B,
+				F5B6DB66038E99D401D68D8B,
+			);
+			isa = PBXGroup;
+			name = Frameworks;
+			refType = 4;
+		};
+		F5B6DB66038E99D401D68D8B = {
+			children = (
+				F5259B8C038EC4720126D607,
+				F5259B93038EC4870126D607,
+			);
+			isa = PBXGroup;
+			name = "Linked Frameworks";
+			refType = 4;
+		};
+		F5B6DB74038E99F101D68D8B = {
+			children = (
+				F5B6DB75038E9A0601D68D8B,
+				F5B6DD6F038E9A1A01D68D8B,
+			);
+			isa = PBXGroup;
+			name = "Other Frameworks";
+			refType = 4;
+		};
+		F5B6DB75038E9A0601D68D8B = {
+			isa = PBXFrameworkReference;
+			name = AppKit.framework;
+			path = /System/Library/Frameworks/AppKit.framework;
+			refType = 0;
+		};
+		F5B6DD6F038E9A1A01D68D8B = {
+			isa = PBXFrameworkReference;
+			name = Foundation.framework;
+			path = /System/Library/Frameworks/Foundation.framework;
+			refType = 0;
+		};
+		F5B97E59038BC50301A800B4 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = LogWindowController.h;
+			refType = 4;
+		};
+		F5B97E5A038BC50301A800B4 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = LogWindowController.m;
+			refType = 4;
+		};
+		F5B97E5B038BC50301A800B4 = {
+			fileRef = F5B97E59038BC50301A800B4;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5B97E5C038BC50301A800B4 = {
+			fileRef = F5B97E5A038BC50301A800B4;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5B97E61038BC64601A800B4 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = LogWindow.m;
+			refType = 4;
+		};
+		F5B97E62038BC64601A800B4 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = LogWindow.h;
+			refType = 4;
+		};
+		F5B97E63038BC64601A800B4 = {
+			fileRef = F5B97E61038BC64601A800B4;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5B97E64038BC64601A800B4 = {
+			fileRef = F5B97E62038BC64601A800B4;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5DB2A3D0389A10001A800B4 = {
+			fileRef = F5F7D0620388533201A800B4;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5F7D0620388533201A800B4 = {
+			isa = PBXFileReference;
+			path = logWindow.nib;
+			refType = 4;
+		};
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA;
+}
